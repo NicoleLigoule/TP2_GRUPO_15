@@ -12,9 +12,15 @@ public class Profesor extends Empleado{
 	}
 	
 	public Profesor(int id, String nombre,int edad, String cargo, int antiguedadDocente) {
-		super(id,nombre,edad);
+		super(nombre,edad);
+		this.cargo = cargo;
 		this.antiguedadDocente = antiguedadDocente;
 	}
 	
+	
+	@Override
+    public String toString() {
+       return super.toString() + "\nCargo=" + cargo + "\nAntiguedad Docente=" + antiguedadDocente;
+    }
 	
 }

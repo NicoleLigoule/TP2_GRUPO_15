@@ -50,6 +50,14 @@ public class Empleado {
 			return contador+1;
 		}
 		
+		@Override
+		public String toString() {
+			return "Empleado:" + "\n" + "ID=" + id + "\n"+"Nombre=" + nombre +"\n"+" Edad=" + edad;
+		}
+		
+		
+		
+	
 		
 		
 }
