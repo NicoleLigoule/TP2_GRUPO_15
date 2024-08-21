@@ -11,6 +11,10 @@ public class Profesor extends Empleado{
 		
 	}
 	
+	public Profesor(int id, String nombre,int edad, String cargo, int antiguedadDocente) {
+		super(id,nombre,edad);
+		this.antiguedadDocente = antiguedadDocente;
+	}
 	
 	
 }
