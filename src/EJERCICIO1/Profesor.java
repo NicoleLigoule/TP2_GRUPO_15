@@ -35,7 +35,7 @@ public class Profesor extends Empleado{
 	
 	@Override
     public String toString() {
-       return super.toString() + "\nCargo=" + cargo + "\nAntiguedad Docente=" + antiguedadDocente;
+       return super.toString() + ", Cargo:" + cargo + ", Antiguedad Docente:" + antiguedadDocente + "\n";
     }
 	
 }

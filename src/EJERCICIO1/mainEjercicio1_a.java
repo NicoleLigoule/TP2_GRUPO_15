@@ -14,8 +14,12 @@ public class mainEjercicio1_a {
 		prof[1]=new Profesor("Tomas",46,"Preceptor",10);
 		prof[2]=new Profesor("Ramiro",32,"Direcor",8);
 		prof[3]=new Profesor("Manuel",42,"Docente",13);
-		prof[2]=new Profesor("Felipe",52,"Preceptor",25);
+		prof[4]=new Profesor("Felipe",52,"Preceptor",25);
 
+		
+		
+		
+		
 	}
 
 }
