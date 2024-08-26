@@ -22,11 +22,14 @@ public class mainEjercicio1_a {
 		profesores.add(prof[3]);
 		profesores.add(prof[4]);
 		
+		
+		
 		ListIterator<Profesor> iterador = profesores.listIterator();
 		 while(iterador.hasNext()){
 			Profesor profesor = iterador.next();
 			iterador.remove();
 			System.out.println(profesor.toString());	
 		}
+			
 	}
 }
