@@ -6,8 +6,8 @@ private	 String el_pais_de_origen;
 	 
 public	 ProductoFresco() {
 	super();
-	this.fecha_de_envasado="Ayer";
-	this.el_pais_de_origen="Angola";
+	this.fecha_de_envasado="Sin fecha";
+	this.el_pais_de_origen="Sin pais";
 }
 public	 ProductoFresco(String fecha_ca,int Lote,String envase,String paisOrigen) {
 	super(fecha_ca,Lote);
