@@ -16,5 +16,15 @@ public class ProductoRefrigerado extends Producto {
 		this.codigo_OSA = codigo_OSP;
 	}
 	
-	
+	public String getCódigo_del_organismo() {
+		return codigo_OSA;
+	}
+
+	public void setCódigo_del_organismo(String codigo_del_organismo) {
+		this.codigo_OSA = codigo_del_organismo;
+	}
+	@Override
+	public String toString() {
+		return "código del organismo:" + codigo_OSA +" "+ super.toString();
+	}
 }
