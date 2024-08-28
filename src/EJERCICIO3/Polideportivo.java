@@ -36,7 +36,10 @@ public class Polideportivo extends Edificio implements instalacionDeportiva{
     }
 	
 	
-
-
+    @Override
+    public String toString() {
+        return "Polideportivo [Nombre=" + nombre + ", Superficie=" + getSuperficie() + ", Tipo de Instalación=" + tipoDeInstalacion + "]";
+    }
+    
 
 }
