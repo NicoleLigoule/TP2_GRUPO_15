@@ -3,6 +3,7 @@ package EJERCICIO3;
 public class Polideportivo extends Edificio implements instalacionDeportiva{
 
 	private String nombre;
+	private int tipoDeInstalacion;
 	
 	//Constructores
 	public Polideportivo() {
@@ -24,13 +25,17 @@ public class Polideportivo extends Edificio implements instalacionDeportiva{
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-
 	
 	@Override
-	public int getTipoDeInstalacion() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
+    public int getTipoDeInstalacion() {
+        return tipoDeInstalacion;
+    }
+
+    public void setTipoDeInstalacion(int tipoDeInstalacion) {
+        this.tipoDeInstalacion = tipoDeInstalacion;
+    }
+	
+	
 
 
 
