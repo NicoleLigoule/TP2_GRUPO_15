@@ -19,7 +19,19 @@ public class mainEjercicio3 {
         edificiosList.add(new EdificioDeOficina(950, 30));
 
 		edificiosList.add(edificios[0]);
-
+		edificiosList.add(edificios[1]);
+		edificiosList.add(edificios[2]);
+		edificiosList.add(edificios[3]);
+		edificiosList.add(edificios[4]);
+		
+		ListIterator<Edificio> iterador = edificiosList.listIterator();
+		
+		 while(iterador.hasNext()){
+			 Edificio Edi =iterador.next();
+			iterador.remove();
+			System.out.println(Edi.toString());	
+		}
+		
 
 	}
 
