@@ -11,10 +11,11 @@ public class ProductoRefrigerado extends Producto {
 		this.codigo_OSA = "Sin codigo";
 	}
 	
-	public ProductoRefrigerado(String fecha_de_caducidad,int numero_de_lote,String codigo_OSP) {
-		super(fecha_de_caducidad, numero_de_lote);
-		this.codigo_OSA = codigo_OSP;
+	public ProductoRefrigerado(String fecha_de_caducidad, int numero_de_lote, String codigo_OSA) {
+	    super(fecha_de_caducidad, numero_de_lote);
+	    this.codigo_OSA = codigo_OSA;  
 	}
+
 	
 	public String getCódigo_del_organismo() {
 		return codigo_OSA;
