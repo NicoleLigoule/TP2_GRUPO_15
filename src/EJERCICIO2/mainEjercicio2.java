@@ -6,7 +6,10 @@ public class mainEjercicio2 {
 		
 		ProductoCongelado pc1 = new ProductoCongelado("01/01/2025", 100001, -10);
 		ProductoFresco Fresco=new ProductoFresco("12/10/2026",1,"Bolsa","argentina");
-		
+		ProductoRefrigerado Refri=new ProductoRefrigerado("12/10/2023",1,22);
+		System.out.println(cong);
+		System.out.println(Fresco);
+		System.out.println(Refri);
 
 	}
 
