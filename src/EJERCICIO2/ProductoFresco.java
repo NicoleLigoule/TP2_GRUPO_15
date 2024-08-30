@@ -29,7 +29,7 @@ public	 ProductoFresco(String fecha_ca,int Lote,String envase,String paisOrigen)
 	}
 	@Override
 	public String toString() {
-		return "fecha de envasado:" + fecha_de_envasado + ", el pais de origen:" + el_pais_de_origen+" "+ super.toString();
+		return "Fecha de envasado:" + fecha_de_envasado + ", el pais de origen:" + el_pais_de_origen+", "+ super.toString();
 	}
 	 
 }

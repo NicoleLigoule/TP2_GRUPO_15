@@ -26,6 +26,6 @@ public class ProductoRefrigerado extends Producto {
 	}
 	@Override
 	public String toString() {
-		return "código del organismo:" + codigo_OSA +" "+ super.toString();
+		return "Código del organismo:" + codigo_OSA +" "+ super.toString();
 	}
 }
