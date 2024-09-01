@@ -1,6 +1,9 @@
 package EJERCICIO1;
 
+import java.util.Iterator;
 import java.util.TreeSet;
+
+
 
 public class mainEjercicio1_b {
 	public static void main(String[] args) {
@@ -17,7 +20,22 @@ public class mainEjercicio1_b {
 		profesores.add(prof[2]);
 		profesores.add(prof[3]);
 		profesores.add(prof[4]);
-
+		
+		 Iterator<Profesor> iterador = profesores.iterator();
+		 while(iterador.hasNext()){
+			Profesor profesor =iterador.next();
+			iterador.remove();
+			System.out.println(profesor.toString());	
+		}
+		 
+		 
+			Profesor prof5 = new Profesor("juan",33,"Maestro",8);
+			Profesor prof6 = new Profesor("juan",33,"Maestro",8);
+			if(prof5.hashCode()==prof6.hashCode()) {
+				System.out.println("son iguales");	
+			}else {
+				System.out.println("son Distntos");
+			}
 	}
 	
 }

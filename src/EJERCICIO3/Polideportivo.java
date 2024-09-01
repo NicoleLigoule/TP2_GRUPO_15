@@ -50,6 +50,6 @@ public int getTipoDeInstalacion() {
 
 	@Override
 	public String toString() {
-	    return "Polideportivo [Nombre=" + nombre + ", Superficie=" + getSuperficie() + ", Tipo de Instalación=" + tipoDeInstalacion + "]";
+		return "Polideportivo nombre:" + nombre + ", tipoDeInstalacion:" + getTipoDeInstalacion() + " "+super.toString();
 	}
 }

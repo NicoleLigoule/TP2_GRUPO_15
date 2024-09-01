@@ -20,4 +20,8 @@ public EdificioDeOficina(double superficie,int oficinas) {
 	super(superficie);
 	this.NumeroDeOficina=oficinas;
 }
+
+public String toString() {
+	return "Numero De Oficina: " + NumeroDeOficina + " "+super.toString();
+}
 }

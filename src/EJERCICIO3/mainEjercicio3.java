@@ -15,8 +15,8 @@ public class mainEjercicio3 {
 		edificios[0]= new Polideportivo(34,"ferro",3);
 		edificios[1]= new Polideportivo(120,"River",1);
 		edificios[2]= new Polideportivo(300,"Estudiantes",2); 
-		edificiosList.add(new EdificioDeOficina(600, 15));
-        edificiosList.add(new EdificioDeOficina(950, 30));
+		edificios[3]=new EdificioDeOficina(580,38);
+		edificios[4]=new EdificioDeOficina(360,24);
 
 		edificiosList.add(edificios[0]);
 		edificiosList.add(edificios[1]);
